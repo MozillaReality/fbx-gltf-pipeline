@@ -1,0 +1,14 @@
+{
+  "name": "fbx-gltf-pipeline",
+  "version": "0.0.2",
+  "main": "src/index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@robertlong/fbx2gltf": "^0.10.1",
+    "commander": "^2.15.0",
+    "fs-extra": "^5.0.0",
+    "gltf-import-export": "^1.0.7",
+    "mkdirp": "^0.5.1"
+  },
+  "bin": "bin/fbx-gltf-pipeline.js"
+}
