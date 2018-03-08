@@ -1,6 +1,6 @@
 {
   "name": "fbx-gltf-pipeline",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "src/index.js",
   "license": "MPL-2.0",
   "repository": {
@@ -14,5 +14,5 @@
     "gltf-import-export": "^1.0.7",
     "mkdirp": "^0.5.1"
   },
-  "bin": "bin/fbx-gltf-pipeline.js"
+  "bin": "bin/fbx-gltf-pipeline"
 }
