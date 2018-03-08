@@ -3,8 +3,8 @@
 
 
 "@robertlong/fbx2gltf@^0.10.1":
-  version "0.10.1"
-  resolved "https://registry.yarnpkg.com/@robertlong/fbx2gltf/-/fbx2gltf-0.10.1.tgz#a05a58bcb46e1332053dabdc250488c43a952d8d"
+  version "0.10.3"
+  resolved "https://registry.yarnpkg.com/@robertlong/fbx2gltf/-/fbx2gltf-0.10.3.tgz#b71270e16cd4fcf649302281530aebfa2e8cf6d9"
   dependencies:
     rimraf "^2.6.2"
 
