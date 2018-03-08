@@ -31,8 +31,9 @@ async function convert(srcFile, options) {
   const gltf = await fs.readJSON(gltfPath);
 
   if (opts.components) {
-    const componentMap = await fs.readJSON(opts.components);
-    
+    const componentsJson = await fs.readJSON(opts.components);
+    const componentMap = componentsJson.components;
+
     for (const nodeName in componentMap) {
       if(componentMap.hasOwnProperty(nodeName)) {
         const components = componentMap[nodeName];
