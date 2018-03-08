@@ -18,3 +18,29 @@ npm install -g fbx-gltf-pipeline
     -u, --unlit                    Use KHR_materials-unlit.
     -h, --help                     output usage information
 ```
+
+## Components JSON Format:
+
+```json
+{
+  "components": {
+    "GLTFNodeName": {
+      "rotator": {
+        "axis": { "x": 0, "y": 1, "z": 0 },
+        "speed": 0.2
+      },
+      "text": [
+        {
+          "value": "A"
+        },
+        {
+          "value": "B"
+        },
+        {
+          "value": "C"
+        }
+      ]
+    }
+  }
+}
+```
