@@ -21,6 +21,10 @@ npm install -g fbx-gltf-pipeline
 
 ## Components JSON Format:
 
+```
+fbx-gltf-pipeline <src> -c components.json
+```
+
 ```json
 {
   "components": {
