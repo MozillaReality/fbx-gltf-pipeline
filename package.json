@@ -2,7 +2,11 @@
   "name": "fbx-gltf-pipeline",
   "version": "0.0.2",
   "main": "src/index.js",
-  "license": "MIT",
+  "license": "MPL-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MozillaReality/fbx-gltf-pipeline.git"
+  },
   "dependencies": {
     "@robertlong/fbx2gltf": "^0.10.1",
     "commander": "^2.15.0",
