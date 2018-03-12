@@ -40,7 +40,9 @@ async function convert(srcFile, options) {
 
         for (const node of gltf.nodes) {
           if (node.name && node.name === nodeName) {
-            node.extras = components;
+            node.extras = Object.assign(node.extras || {}, {
+              components
+            });
           }
         }
       }
