@@ -1,6 +1,7 @@
 # fbx-gltf-pipeline
 
 ## Install
+
 ```
 npm install -g fbx-gltf-pipeline
 ```
@@ -27,23 +28,16 @@ fbx-gltf-pipeline <src> -c components.json
 
 ```json
 {
-  "components": {
-    "GLTFNodeName": {
-      "rotator": {
-        "axis": { "x": 0, "y": 1, "z": 0 },
-        "speed": 0.2
-      },
-      "text": [
-        {
-          "value": "A"
-        },
-        {
-          "value": "B"
-        },
-        {
-          "value": "C"
-        }
-      ]
+  "scenes": {
+    "Root Scene": {
+      "loop-animation": {
+        "clip": "idle_eyes"
+      }
+    }
+  },
+  "nodes": {
+    "Head": {
+      "scale-audio-feedback": ""
     }
   }
 }
