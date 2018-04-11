@@ -1,4 +1,6 @@
-# fbx-gltf-pipeline
+# fbx-gltf-pipeline (DEPRECATED)
+
+Deprecated in favor of [gltf-bundle](https://github.com/MozillaReality/gltf-bundle).
 
 ## Install
 
